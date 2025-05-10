@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quanterix Corporation - Business Strategy Analysis By Chad Keith</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap');
+        
+        body {
+            font-family: 'Montserrat', sans-serif;
+            scroll-behavior: smooth;
+        }
+        
+        .hero-gradient {
+            background: linear-gradient(135deg, #1e3a8a 0%, #3b82f6 50%, #93c5fd 100%);
+        }
+        
+        .tech-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+        }
+        
+        .fade-in {
+            animation: fadeIn 1s ease-in;
+        }
+        
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        
+        .parallax {
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+    </style>
+</head>
+<body class="bg-gray-50">
+    <!-- Navigation -->
+    <nav class="bg-white shadow-lg sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-16">
+                <div class="flex items-center">
+                    <div class="flex-shrink-0 flex items-center">
+                        <i class="fas fa-atom text-blue-600 text-2xl mr-2"></i>
+                        <span class="text-xl font-bold text-gray-900">Quanterix - Strategic Management Analysis</span>
+                    </div>
+                </div>
+                <div class="hidden md:ml-6 md:flex md:items-center md:space-x-8">
+                    <a href="#overview" class="text-gray-900 hover:text-blue-600 px-3 py-2 text-sm font-medium">Overview</a>
+                    <a href="#strategy" class="text-gray-900 hover:text-blue-600 px-3 py-2 text-sm font-medium">Strategy</a>
+                    <a href="#technology" class="text-gray-900 hover:text-blue-600 px-3 py-2 text-sm font-medium">Technology</a>
+                    <a href="#advantage" class="text-gray-900 hover:text-blue-600 px-3 py-2 text-sm font-medium">Advantage</a>
+                    <a href="#sources" class="text-gray-900 hover:text-blue-600 px-3 py-2 text-sm font-medium">Sources</a>
+                </div>
+                <div class="-mr-2 flex items-center md:hidden">
+                    <button id="mobile-menu-button" class="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-blue-500">
+                        <i class="fas fa-bars"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Mobile menu -->
+        <div id="mobile-menu" class="hidden md:hidden bg-white border-t border-gray-200">
+            <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3">
+                <a href="#overview" class="block px-3 py-2 text-base font-medium text-gray-900 hover:text-blue-600 hover:bg-gray-50">Overview</a>
+                <a href="#strategy" class="block px-3 py-2 text-base font-medium text-gray-900 hover:text-blue-600 hover:bg-gray-50">Strategy</a>
+                <a href="#technology" class="block px-3 py-2 text-base font-medium text-gray-900 hover:text-blue-600 hover:bg-gray-50">Technology</a>
+                <a href="#advantage" class="block px-3 py-2 text-base font-medium text-gray-900 hover:text-blue-600 hover:bg-gray-50">Advantage</a>
+                <a href="#sources" class="block px-3 py-2 text-base font-medium text-gray-900 hover:text-blue-600 hover:bg-gray-50">Sources</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero-gradient text-white">
+        <div class="max-w-7xl mx-auto py-24 px-4 sm:py-32 sm:px-6 lg:px-8 text-center">
+            <h1 class="text-4xl md:text-6xl font-extrabold mb-6 fade-in">
+                Quanterix Corporation
+            </h1>
+            <h2 class="text-xl md:text-2xl font-semibold mb-8 fade-in">
+                Business Strategy Analysis: Niche Differentiation in Life Sciences
+            </h2>
+            <p class="max-w-3xl mx-auto text-lg md:text-xl mb-10 fade-in">
+                A strategic examination of how Quanterix leverages ultra-sensitive digital biomarker technology to create sustainable competitive advantage
+            </p>
+            <div class="flex justify-center space-x-4 fade-in">
+                <a href="#strategy" class="bg-white text-blue-600 hover:bg-gray-100 px-6 py-3 rounded-md font-medium shadow-lg transition duration-300">
+                    Explore Strategy
+                </a>
+                <a href="https://www.quanterix.com" target="_blank" class="bg-transparent border-2 border-white hover:bg-white hover:text-blue-600 px-6 py-3 rounded-md font-medium transition duration-300">
+                    Visit Quanterix
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Overview Section -->
+    <section id="overview" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="lg:text-center">
+                <h2 class="text-base text-blue-600 font-semibold tracking-wide uppercase">Introduction</h2>
+                <h3 class="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
+                    Strategic Positioning in Niche Markets
+                </h3>
+                <p class="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto">
+                    Quanterix Corporation offers a thought-provoking case of strategic positioning in the life sciences industry.
+                </p>
+            </div>
+
+            <div class="mt-16">
+                <div class="grid grid-cols-1 gap-8 md:grid-cols-2">
+                    <div class="bg-gray-50 p-8 rounded-xl shadow-sm">
+                        <div class="flex items-center mb-6">
+                            <div class="flex-shrink-0 bg-blue-100 p-3 rounded-full">
+                                <i class="fas fa-map-marker-alt text-blue-600 text-xl"></i>
+                            </div>
+                            <h4 class="ml-3 text-lg font-medium text-gray-900">Company Background</h4>
+                        </div>
+                        <p class="mt-2 text-gray-600">
+                            Quanterix is an innovative life sciences company based in Billerica, Massachusetts. While lesser known compared to industry giants, the company has carved out a specialized niche in ultra-sensitive digital biomarker detection.
+                        </p>
+                    </div>
+
+                    <div class="bg-gray-50 p-8 rounded-xl shadow-sm">
+                        <div class="flex items-center mb-6">
+                            <div class="flex-shrink-0 bg-blue-100 p-3 rounded-full">
+                                <i class="fas fa-bullseye text-blue-600 text-xl"></i>
+                            </div>
+                            <h4 class="ml-3 text-lg font-medium text-gray-900">Market Focus</h4>
+                        </div>
+                        <p class="mt-2 text-gray-600">
+                            The company specializes in early disease diagnosis, particularly in neurology, through its groundbreaking biomarker detection technology. This focused approach allows Quanterix to avoid direct competition with larger, generalized diagnostics firms.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Parallax Divider -->
+    <div class="parallax h-64 bg-fixed bg-center bg-cover" style="background-image: url('https://images.unsplash.com/photo-1532094349884-543bc11b234d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80');">
+        <div class="h-full bg-blue-800 bg-opacity-70 flex items-center justify-center">
+            <h3 class="text-3xl font-bold text-white text-center px-4">
+                "Differentiation Focus Strategy in Action"
+            </h3>
+        </div>
+    </div>
+
+    <!-- Strategy Section -->
+    <section id="strategy" class="py-20 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="lg:text-center mb-16">
+                <h2 class="text-base text-blue-600 font-semibold tracking-wide uppercase">Generic Business Strategy</h2>
+                <h3 class="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
+                    Porter's Framework Analysis
+                </h3>
+                <p class="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto">
+                    Quanterix aligns with the Differentiation Focus Strategy among Porter's four generic business strategies
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Cost Leadership -->
+                <div class="bg-white p-6 rounded-lg shadow-md border-t-4 border-gray-300 hover:border-blue-500 transition duration-300">
+                    <div class="flex items-center mb-4">
+                        <div class="bg-gray-100 p-2 rounded-full mr-4">
+                            <i class="fas fa-dollar-sign text-gray-500"></i>
+                        </div>
+                        <h4 class="text-lg font-semibold text-gray-800">Cost Leadership</h4>
+                    </div>
+                    <p class="text-gray-600">
+                        <span class="font-medium">Not Quanterix's approach</span> - They don't compete on being the low-cost provider in broad markets.
+                    </p>
+                </div>
+                
+                <!-- Differentiation -->
+                <div class="bg-white p-6 rounded-lg shadow-md border-t-4 border-gray-300 hover:border-blue-500 transition duration-300">
+                    <div class="flex items-center mb-4">
+                        <div class="bg-gray-100 p-2 rounded-full mr-4">
+                            <i class="fas fa-star text-gray-500"></i>
+                        </div>
+                        <h4 class="text-lg font-semibold text-gray-800">Differentiation</h4>
+                    </div>
+                    <p class="text-gray-600">
+                        <span class="font-medium">Partial alignment</span> - While they differentiate, they focus on narrow market segments rather than broad differentiation.
+                    </p>
+                </div>
+                
+                <!-- Differentiation Focus -->
+                <div class="bg-white p-6 rounded-lg shadow-md border-t-4 border-blue-500">
+                    <div class="flex items-center mb-4">
+                        <div class="bg-blue-100 p-2 rounded-full mr-4">
+                            <i class="fas fa-bullseye text-blue-600"></i>
+                        </div>
+                        <h4 class="text-lg font-semibold text-gray-800">Differentiation Focus</h4>
+                    </div>
+                    <p class="text-gray-600">
+                        <span class="font-medium text-blue-600">Quanterix's Strategy</span> - Targets specialized life sciences segment with unique, high-precision technology tailored to research and clinical needs.
+                    </p>
+                </div>
+            </div>
+
+            <div class="mt-16 bg-white rounded-xl shadow-md overflow-hidden">
+                <div class="md:flex">
+                    <div class="md:flex-shrink-0 md:w-1/3 bg-blue-600 flex items-center justify-center p-8">
+                        <i class="fas fa-chess-queen text-white text-6xl"></i>
+                    </div>
+                    <div class="p-8">
+                        <div class="uppercase tracking-wide text-sm text-blue-600 font-semibold">Strategic Insight</div>
+                        <p class="mt-2 text-gray-600">
+                            "Rather than competing on broad market cost or universal appeal, Quanterix targets a narrow segment within the life sciences and diagnostics industry, focusing on ultra-sensitive digital biomarkers for early disease diagnosis. Their strategy emphasizes unique, high-precision technology tailored to specialized research and clinical needs."
+                        </p>
+                        <div class="mt-6 flex items-center">
+                            <div class="flex-shrink-0">
+                                <i class="fas fa-quote-left text-gray-400 text-2xl"></i>
+                            </div>
+                            <div class="ml-4">
+                                <div class="text-sm text-gray-500">
+                                    Business Strategy Analysis: Quanterix Corporation's Niche Differentiation
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Technology Section -->
+    <section id="technology" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="lg:text-center mb-16">
+                <h2 class="text-base text-blue-600 font-semibold tracking-wide uppercase">Core Technology</h2>
+                <h3 class="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
+                    SiMoA Technology Platform
+                </h3>
+                <p class="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto">
+                    The foundation of Quanterix's competitive advantage
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-16">
+                <div class="tech-card bg-gray-50 p-8 rounded-xl shadow-sm transition duration-300 hover:shadow-lg">
+                    <div class="flex items-center mb-6">
+                        <div class="flex-shrink-0 bg-blue-100 p-3 rounded-full">
+                            <i class="fas fa-microscope text-blue-600 text-xl"></i>
+                        </div>
+                        <h4 class="ml-3 text-lg font-medium text-gray-900">Single Molecule Array (SiMoA)</h4>
+                    </div>
+                    <p class="mt-2 text-gray-600">
+                        Quanterix's proprietary SiMoA technology enables unprecedented sensitivity in detecting biomarkers at extremely low concentrations. This breakthrough allows researchers and clinicians to identify diseases at their earliest stages when interventions are most effective.
+                    </p>
+                </div>
+
+                <div class="tech-card bg-gray-50 p-8 rounded-xl shadow-sm transition duration-300 hover:shadow-lg">
+                    <div class="flex items-center mb-6">
+                        <div class="flex-shrink-0 bg-blue-100 p-3 rounded-full">
+                            <i class="fas fa-brain text-blue-600 text-xl"></i>
+                        </div>
+                        <h4 class="ml-3 text-lg font-medium text-gray-900">Neurology Focus</h4>
+                    </div>
+                    <p class="mt-2 text-gray-600">
+                        The technology has shown particular promise in neurodegenerative disease research, where early detection is critical but challenging. Quanterix's growing adoption in this field demonstrates the value of their specialized approach.
+                    </p>
+                </div>
+            </div>
+
+            <div class="bg-blue-50 rounded-xl p-8 border border-blue-100">
+                <h3 class="text-xl font-semibold text-blue-800 mb-4">From Fierce Biotech (2024):</h3>
+                <blockquote class="text-gray-700 italic border-l-4 border-blue-500 pl-4 py-2">
+                    "Quanterix eyes continued growth with single-molecule tech for blood-based biomarkers. The company's SiMoA platform is gaining traction for its ability to detect biomarkers at concentrations up to 1,000 times lower than conventional assays."
+                </blockquote>
+                <div class="mt-4">
+                    <a href="https://www.fiercebiotech.com/medtech/quanterix-eyes-continued-growth-single-molecule-tech-blood-based-biomarkers" target="_blank" class="text-blue-600 hover:text-blue-800 font-medium inline-flex items-center">
+                        Read the full article
+                        <i class="fas fa-external-link-alt ml-2 text-sm"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Competitive Advantage Section -->
+    <section id="advantage" class="py-20 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="lg:text-center mb-16">
+                <h2 class="text-base text-blue-600 font-semibold tracking-wide uppercase">Sustainable Competitive Advantage</h2>
+                <h3 class="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
+                    The Four Criteria Test
+                </h3>
+                <p class="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto">
+                    Evaluating SiMoA technology against the VRIN framework
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                <!-- Valuable -->
+                <div class="bg-white p-6 rounded-lg shadow-md border-t-4 border-blue-500">
+                    <div class="text-blue-600 mb-4">
+                        <i class="fas fa-gem text-3xl"></i>
+                    </div>
+                    <h4 class="text-lg font-semibold text-gray-800 mb-3">Valuable</h4>
+                    <p class="text-gray-600">
+                        It addresses critical needs in early disease detection, driving demand from researchers and clinicians. The technology creates value by enabling earlier interventions and more precise diagnostics.
+                    </p>
+                </div>
+                
+                <!-- Rare -->
+                <div class="bg-white p-6 rounded-lg shadow-md border-t-4 border-blue-500">
+                    <div class="text-blue-600 mb-4">
+                        <i class="fas fa-crown text-3xl"></i>
+                    </div>
+                    <h4 class="text-lg font-semibold text-gray-800 mb-3">Rare</h4>
+                    <p class="text-gray-600">
+                        Few competitors offer comparable sensitivity in biomarker analysis. Quanterix's technology stands out in its ability to detect biomarkers at concentrations that conventional methods cannot.
+                    </p>
+                </div>
+                
+                <!-- Inimitable -->
+                <div class="bg-white p-6 rounded-lg shadow-md border-t-4 border-blue-500">
+                    <div class="text-blue-600 mb-4">
+                        <i class="fas fa-lock text-3xl"></i>
+                    </div>
+                    <h4 class="text-lg font-semibold text-gray-800 mb-3">Inimitable</h4>
+                    <p class="text-gray-600">
+                        The technology is protected by patents and years of specialized R&D, creating significant barriers to replication. Competitors would need substantial investment and time to develop similar capabilities.
+                    </p>
+                </div>
+                
+                <!-- Non-substitutable -->
+                <div class="bg-white p-6 rounded-lg shadow-md border-t-4 border-blue-500">
+                    <div class="text-blue-600 mb-4">
+                        <i class="fas fa-shield-alt text-3xl"></i>
+                    </div>
+                    <h4 class="text-lg font-semibold text-gray-800 mb-3">Non-substitutable</h4>
+                    <p class="text-gray-600">
+                        Alternative methods often lack SiMoA's precision at such low detection levels. For applications requiring extreme sensitivity, there are currently no equivalent substitutes available in the market.
+                    </p>
+                </div>
+            </div>
+
+            <div class="mt-16 bg-white rounded-xl shadow-lg overflow-hidden">
+                <div class="md:flex">
+                    <div class="p-8">
+                        <div class="uppercase tracking-wide text-sm text-blue-600 font-semibold">Strategic Conclusion</div>
+                        <p class="mt-2 text-gray-600">
+                            "In the author's view, Quanterix has successfully built this capability, as evidenced by their growing adoption in neurodegenerative research. Their SiMoA platform likely passes these tests, providing a competitive edge... that is, if they continue to innovate and protect their intellectual property, which is easier said than done."
+                        </p>
+                        <div class="mt-6">
+                            <p class="text-gray-600">
+                                This case underscores how focused differentiation can excel in specialized markets, offering strategic insights that are required for unique, and effective positioning.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="md:flex-shrink-0 md:w-1/3 bg-blue-50 flex items-center justify-center p-8">
+                        <i class="fas fa-lightbulb text-blue-600 text-6xl"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sources Section -->
+    <section id="sources" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="lg:text-center mb-16">
+                <h2 class="text-base text-blue-600 font-semibold tracking-wide uppercase">Works Cited</h2>
+                <h3 class="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
+                    Research Sources
+                </h3>
+            </div>
+
+            <div class="bg-gray-50 rounded-lg p-8 shadow-inner">
+                <div class="space-y-6">
+                    <div class="flex items-start">
+                        <div class="flex-shrink-0 bg-blue-100 p-2 rounded-full mt-1">
+                            <i class="fas fa-globe text-blue-600 text-sm"></i>
+                        </div>
+                        <div class="ml-3">
+                            <p class="text-gray-800">
+                                "Quanterix – Digital Biomarker Development and Detection." Quanterix Corporation, 2025, 
+                                <a href="https://www.quanterix.com" target="_blank" class="text-blue-600 hover:underline">www.quanterix.com</a>, 
+                                Accessed 9 May 2025.
+                            </p>
+                        </div>
+                    </div>
+                    
+                    <div class="flex items-start">
+                        <div class="flex-shrink-0 bg-blue-100 p-2 rounded-full mt-1">
+                            <i class="fas fa-newspaper text-blue-600 text-sm"></i>
+                        </div>
+                        <div class="ml-3">
+                            <p class="text-gray-800">
+                                "Quanterix Eyes Continued Growth with Single-Molecule Tech for Blood-Based Biomarkers." Fierce Biotech, 2024, 
+                                <a href="https://www.fiercebiotech.com/medtech/quanterix-eyes-continued-growth-single-molecule-tech-blood-based-biomarkers" target="_blank" class="text-blue-600 hover:underline">www.fiercebiotech.com/medtech/quanterix-eyes-continued-growth-single-molecule-tech-blood-based-biomarkers</a>, 
+                                Accessed 9 May 2025.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mt-16 border-t border-gray-200 pt-12">
+                <div class="lg:grid lg:grid-cols-3 lg:gap-8">
+                    <div class="lg:col-span-1">
+                        <h3 class="text-xl font-bold text-gray-900">Quanterix Strategy Analysis</h3>
+                        <p class="mt-4 text-gray-600">
+                            A strategic examination of niche differentiation in the life sciences industry.
+                        </p>
+                    </div>
+                    <div class="mt-12 lg:mt-0 lg:col-span-2">
+                        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                            <div>
+                                <h4 class="text-sm font-semibold text-gray-900 tracking-wider uppercase">Author</h4>
+                                <div class="mt-4 space-y-4">
+                                    <p class="text-gray-600">Chad Keith</p>
+                                </div>
+                            </div>
+                            <div>
+                                <h4 class="text-sm font-semibold text-gray-900 tracking-wider uppercase">Course</h4>
+                                <div class="mt-4 space-y-4">
+                                    <p class="text-gray-600">BUS 497A-13761-SP2025</p>
+                                    <p class="text-gray-600">Capstone: Strategic Management</p>
+                                </div>
+                            </div>
+                            <div>
+                                <h4 class="text-sm font-semibold text-gray-900 tracking-wider uppercase">Professor</h4>
+                                <div class="mt-4 space-y-4">
+                                    <p class="text-gray-600">Professor Phil Gorman</p>
+                                    <p class="text-gray-600">9 May 2025</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="mt-12 border-t border-gray-200 pt-8 flex justify-between">
+                    <p class="text-gray-500 text-sm">
+                        &copy; 2025 Chad Keith. All information presented for educational purposes. All rights reserved.
+                    </p>
+                    <div class="flex space-x-6">
+                        <a href="#" class="text-gray-500 hover:text-blue-600">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#" class="text-gray-500 hover:text-blue-600">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="#" class="text-gray-500 hover:text-blue-600">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Back to top button -->
+    <button id="back-to-top" class="hidden fixed bottom-8 right-8 bg-blue-600 text-white p-3 rounded-full shadow-lg hover:bg-blue-700 transition duration-300">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script>
+        // Mobile menu toggle
+        document.getElementById('mobile-menu-button').addEventListener('click', function() {
+            const menu = document.getElementById('mobile-menu');
+            menu.classList.toggle('hidden');
+        });
+
+        // Back to top button
+        const backToTopButton = document.getElementById('back-to-top');
+        
+        window.addEventListener('scroll', function() {
+            if (window.pageYOffset > 300) {
+                backToTopButton.classList.remove('hidden');
+            } else {
+                backToTopButton.classList.add('hidden');
+            }
+        });
+
+        backToTopButton.addEventListener('click', function() {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
+
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                
+                const targetId = this.getAttribute('href');
+                const targetElement = document.querySelector(targetId);
+                
+                if (targetElement) {
+                    targetElement.scrollIntoView({
+                        behavior: 'smooth'
+                    });
+                    
+                    // Close mobile menu if open
+                    const mobileMenu = document.getElementById('mobile-menu');
+                    if (!mobileMenu.classList.contains('hidden')) {
+                        mobileMenu.classList.add('hidden');
+                    }
+                }
+            });
+        });
+
+        // Animation on scroll
+        const fadeElements = document.querySelectorAll('.fade-in');
+        
+        const fadeInObserver = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('opacity-100');
+                }
+            });
+        }, { threshold: 0.1 });
+
+        fadeElements.forEach(element => {
+            element.classList.add('opacity-0', 'transition-opacity', 'duration-500');
+            fadeInObserver.observe(element);
+        });
+    </script>
+</body>
+</html>
